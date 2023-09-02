@@ -14,6 +14,31 @@ body {
 }
 
 
+main,
+header,
+aside,
+nav {
+    width: 80%;
+    margin:auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+
 nav h1,
 footer h1 {
     font-family: 'Coiny', cursive;
@@ -31,22 +56,7 @@ footer a {
     text-decoration: none;
     
 }
-
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-}
-
-
-
-
+ 
 ul {
     list-style:none;
     margin: 0;
@@ -54,8 +64,9 @@ ul {
 
 }
 
-nav a {
-    text-transform: capitalize;
+header img {
+    width: 70%;
+    margin-left: 30%;
 }
 
 header h1 {
@@ -63,6 +74,20 @@ header h1 {
     font-size: 41px;
     line-height: 65px;
     text-transform: lowercase;
+}
+
+header.encolumnar,
+aside.encolumnar {
+    border-bottom: none;
+}
+
+
+section {
+    width: 45%;
+}
+
+main {
+    font-size: 21px;
 }
 
 .grande {
@@ -111,25 +136,6 @@ aside div {
     font-size: 40px;
 }
 
-
-header.encolumnar,
-aside.encolumnar {
-    border-bottom: none;
-}
-
-
-header img {
-    width: 70%;
-    margin-left: 30%;
-}
-
-main,
-header,
-aside,
-nav {
-    width: 80%;
-    margin:auto;
-}
 
 
 #imagen {
@@ -218,13 +224,6 @@ footer a {
     font-size: 24px;
 }
 
-section {
-    width: 45%;
-}
-
-main {
-    font-size: 21px;
-}
 
 .redes { 
     font-weight: bold;
