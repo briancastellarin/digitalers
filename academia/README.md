@@ -33,10 +33,10 @@ Recomiendo usar [IntelliJ IDEA IDE](https://www.jetbrains.com/idea/) para ejecut
 
    -> cd academia-api
 
-   -> git clone https://github.com/gmmaunas/academia-api
+   -> git clone https://github.com/briancastellarin/digitalers
 
 2. Abra xaamp o wampp y ejecute el servidor MySQL.
-3. Crea una base de datos MySQL con el nombre "academia_db" (o llámala como quieras y modifica el archivo
+3. Crea una base de datos MySQL con el nombre "digitalers" (o llámala como quieras y modifica el archivo
    application.properties).
 4. En la terminal, acceda al directorio de su proyecto:
 
@@ -51,5 +51,5 @@ En el momento de la inicialización, la documentación de la API se puede encont
 
 Si no funciona, intente con localhost:****/swagger-ui.html y cambie **** al puerto que haya configurado.
 
-En la carpeta collection están todas las colecciones de api para importar en Postman, todo está listo para 
+El archivo "academia.postman_collection.json" contiene todas las colecciones de api para importar en Postman, todo está listo para 
 ser probado (pruebas - testing).
